@@ -23,7 +23,7 @@ export default class SignUp extends Component {
   handleSubmit = (event) => {
     event.preventDefault();
 
-    const url = '/api/login';
+    const url = 'http://localhost:3000/api/login';
 
     fetch(url)
     .then( res => {
