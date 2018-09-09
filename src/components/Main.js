@@ -5,8 +5,8 @@ import LoggedIn from './SearchBar';
 export default class Main extends Component {
   render() {
     return (
-      <LoggedIn/>
-      // <SignUp/>
+      // <LoggedIn/>
+      <SignUp/>
     );
   }
 }

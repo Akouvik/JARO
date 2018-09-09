@@ -32,7 +32,7 @@ module.exports = {
 		hotOnly: true,
 		historyApiFallback: false,
 		proxy: {
-			"/api": "http://localhost:3000"
+			"*": "http://[::1]:3000"
 		},
 	},
 	resolve: {
